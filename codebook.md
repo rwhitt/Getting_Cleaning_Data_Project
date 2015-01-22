@@ -23,7 +23,7 @@ Data Transformations:
 10. Summarize mean of each subset variable in final dataset: summarymean.txt  
 
 
-Variable Descriptions:  
+##Variable Descriptions:  
 
 1.  Activity	
 	*  Activity Type ; One of the following: "WALKING","WALKING_UPSTAIRS","WALKING_DOWNSTAIRS","SITTING","STANDING","LAYING"  
