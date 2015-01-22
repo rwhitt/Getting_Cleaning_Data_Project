@@ -1,4 +1,4 @@
-##The Run_Analysis.R script imports, merges, cleans, and summarizes the mean of each mean and st. dev variable in Human Activity Recognition Using Smartphones Dataset by Subject and Activity 
+##The Run_Analysis.R script imports, merges, cleans, and summarizes the mean of each mean and st. dev variable in the Human Activity Recognition Using Smartphones Dataset by Subject and Activity 
 ##Requires the plyr and dplyr packages to run
 ##Requires the following files from the original dataset in the working directory: X_test.txt, X_train.txt, features.txt, y_test.txt, y_train.txt, subject_test.txt, subject_train.txt 
 ##The script performs the following steps:
