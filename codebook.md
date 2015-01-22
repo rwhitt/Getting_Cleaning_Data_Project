@@ -25,8 +25,8 @@ Data Transformations:
 
 Variable Descriptions:  
 =================================================
-Column Index   Variable    
-	Description  
+Column Index &nspb;  Variable    
+*  Description  
 =================================================
 1.  Activity	
 	*  Activity Type ; One of the following: "WALKING","WALKING_UPSTAIRS","WALKING_DOWNSTAIRS","SITTING","STANDING","LAYING"  
