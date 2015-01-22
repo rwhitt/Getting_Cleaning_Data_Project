@@ -52,14 +52,21 @@ allmerge <- cbind(ymerge,submerge,xmerge)
 msdset <- allmerge[,grepl("Activity|Subject_Number|mean|std",names(allmerge),ignore.case=TRUE)]  
 
 ##Clean up variable names
-names(msdset) <- sub("\\(\\)","",names(msdset)) #remove paranthesis  
-names(msdset) <- sub("[[:digit:]]+","",names(msdset)) #remove leading digits  
-names(msdset) <- gsub("-","_",names(msdset)) #replace dashes with underscores  
-names(msdset) <- sub("\\(","_",names(msdset)) #replace open paren with underscore  
-names(msdset) <- gsub("\\)","",names(msdset)) #remove closed parenthesis  
-names(msdset) <- sub("\\,","_",names(msdset)) #replace commas with underscores  
+###remove paranthesis
+names(msdset) <- sub("\\(\\)","",names(msdset))   
+###remove leading digits
+names(msdset) <- sub("[[:digit:]]+","",names(msdset))   
+###replace dashes with underscores 
+names(msdset) <- gsub("-","_",names(msdset))  
+###replace open paren with underscore
+names(msdset) <- sub("\\(","_",names(msdset))   
+###remove closed parenthesis 
+names(msdset) <- gsub("\\)","",names(msdset))  
+###replace commas with underscores
+names(msdset) <- sub("\\,","_",names(msdset))   
+###remove leading/trailing whitespace
 trim <- function (x) gsub("^\\s+|\\s+$", "", x)  
-names(msdset) <- trim(names(msdset)) #remove leading/trailing whitespace  
+names(msdset) <- trim(names(msdset))   
 
 ##Using dplyr package, group dataset by activity and subject
 by_act_sub <- group_by(msdset,Activity,Subject_Number)  
