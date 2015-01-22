@@ -30,8 +30,7 @@ feat <- read.delim2("features.txt", header = FALSE)
 feat <- as.matrix(feat)  
 colnames(xmerge) <- feat  
 
-##imports/merges/renames all activity label classes to activity description (uses plyr package mapvalues to name activities),
-##names variable
+##imports/merges/renames all activity label classes to activity description (uses plyr package mapvalues to name activities), names variable
 ytest <- read.table("y_test.txt")  
 ytrain <- read.table("y_train.txt")  
 ymerge <- rbind(ytest,ytrain)
