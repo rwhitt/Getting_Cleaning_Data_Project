@@ -25,7 +25,7 @@ Data Transformations:
 
 Variable Descriptions:  
 =================================================
-Column Index &nspb;  Variable    
+Column Index <space><space><space>  Variable    
 *  Description  
 =================================================
 1.  Activity	
