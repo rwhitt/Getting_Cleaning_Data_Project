@@ -28,181 +28,182 @@ Variable Descriptions:
 Variable  Column Index
 	Description
 =================================================
-Activity    1  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Body Accelerometer  mean X axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-Subject_Number    2  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Body Accelerometer  mean Y axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-tBodyAcc_mean_X    3  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Body Accelerometer  mean Z axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-tBodyAcc_mean_Y    4  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Body Accelerometer  Standard Deviation X axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-tBodyAcc_mean_Z    5  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Body Accelerometer  Standard Deviation Y axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-tBodyAcc_std_X    6  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Body Accelerometer  Standard Deviation Z axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-tBodyAcc_std_Y    7  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Gravity Accelerometer  mean X axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-tBodyAcc_std_Z    8  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Gravity Accelerometer  mean Y axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-tGravityAcc_mean_X    9  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Gravity Accelerometer  mean Z axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-tGravityAcc_mean_Y    10  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Gravity Accelerometer  Standard Deviation X axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-tGravityAcc_mean_Z    11  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Gravity Accelerometer  Standard Deviation Y axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-tGravityAcc_std_X    12  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Gravity Accelerometer  Standard Deviation Z axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-tGravityAcc_std_Y    13  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Body Accelerometer  Jerk Signal mean X axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-tGravityAcc_std_Z    14  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Body Accelerometer  Jerk Signal mean Y axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-tBodyAccJerk_mean_X    15  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Body Accelerometer  Jerk Signal mean Z axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-tBodyAccJerk_mean_Y    16  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Body Accelerometer  Jerk Signal Standard Deviation X axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-tBodyAccJerk_mean_Z    17  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Body Accelerometer  Jerk Signal Standard Deviation Y axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-tBodyAccJerk_std_X    18  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Body Accelerometer  Jerk Signal Standard Deviation Z axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-tBodyAccJerk_std_Y    19  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Body Gyroscope  mean X axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-tBodyAccJerk_std_Z    20  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Body Gyroscope  mean Y axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-tBodyGyro_mean_X    21  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Body Gyroscope  mean Z axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-tBodyGyro_mean_Y    22  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Body Gyroscope  Standard Deviation X axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-tBodyGyro_mean_Z    23  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Body Gyroscope  Standard Deviation Y axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-tBodyGyro_std_X    24  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Body Gyroscope  Standard Deviation Z axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-tBodyGyro_std_Y    25  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Body Gyroscope  Jerk Signal  mean X axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-tBodyGyro_std_Z    26  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Body Gyroscope  Jerk Signal  mean Y axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-tBodyGyroJerk_mean_X    27  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Body Gyroscope  Jerk Signal  mean Z axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-tBodyGyroJerk_mean_Y    28  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Body Gyroscope  Jerk Signal  Standard Deviation X axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-tBodyGyroJerk_mean_Z    29  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Body Gyroscope  Jerk Signal  Standard Deviation Y axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-tBodyGyroJerk_std_X    30  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Body Gyroscope  Jerk Signal  Standard Deviation Z axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-tBodyGyroJerk_std_Y    31  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Body Accelerometer  Mag mean ; Mean of Normalized Observations Bounded Within [-1,1]  
-tBodyGyroJerk_std_Z    32  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Body Accelerometer  Mag Standard Deviation ; Mean of Normalized Observations Bounded Within [-1,1]  
-tBodyAccMag_mean    33  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Gravity Accelerometer  Mag mean ; Mean of Normalized Observations Bounded Within [-1,1]  
-tBodyAccMag_std    34  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Gravity Accelerometer  Mag Standard Deviation ; Mean of Normalized Observations Bounded Within [-1,1]  
-tGravityAccMag_mean    35  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Body Accelerometer  Jerk Signal Mag mean ; Mean of Normalized Observations Bounded Within [-1,1]  
-tGravityAccMag_std    36  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Body Accelerometer  Jerk Signal Mag Standard Deviation ; Mean of Normalized Observations Bounded Within [-1,1]  
-tBodyAccJerkMag_mean    37  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Body Gyroscope  Mag mean ; Mean of Normalized Observations Bounded Within [-1,1]  
-tBodyAccJerkMag_std    38  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Body Gyroscope  Mag Standard Deviation ; Mean of Normalized Observations Bounded Within [-1,1]  
-tBodyGyroMag_mean    39  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Body Gyroscope  Jerk Signal Mag mean ; Mean of Normalized Observations Bounded Within [-1,1]  
-tBodyGyroMag_std    40  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time Domain Body Gyroscope  Jerk Signal Mag Standard Deviation ; Mean of Normalized Observations Bounded Within [-1,1]  
-tBodyGyroJerkMag_mean    41  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Accelerometer  mean X axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-tBodyGyroJerkMag_std    42  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Accelerometer  mean Y axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyAcc_mean_X    43  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Accelerometer  mean Z axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyAcc_mean_Y    44  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Accelerometer  Standard Deviation X axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyAcc_mean_Z    45  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Accelerometer  Standard Deviation Y axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyAcc_std_X    46  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Accelerometer  Standard Deviation Z axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyAcc_std_Y    47  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Accelerometer  Mean Frequency X axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyAcc_std_Z    48  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Accelerometer  Mean Frequency Y axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyAcc_meanFreq_X    49  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Accelerometer  Mean Frequency Z axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyAcc_meanFreq_Y    50  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Accelerometer  Jerk Signal  mean X axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyAcc_meanFreq_Z    51  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Accelerometer  Jerk Signal  mean Y axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyAccJerk_mean_X    52  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Accelerometer  Jerk Signal  mean Z axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyAccJerk_mean_Y    53  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Accelerometer  Jerk Signal  Standard Deviation X axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyAccJerk_mean_Z    54  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Accelerometer  Jerk Signal  Standard Deviation Y axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyAccJerk_std_X    55  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Accelerometer  Jerk Signal  Standard Deviation Z axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyAccJerk_std_Y    56  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Accelerometer  Jerk Signal  Mean Frequency X axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyAccJerk_std_Z    57  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Accelerometer  Jerk Signal  Mean Frequency Y axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyAccJerk_meanFreq_X    58  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Accelerometer  Jerk Signal  Mean Frequency Z axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyAccJerk_meanFreq_Y    59  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Gyroscope  mean X axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyAccJerk_meanFreq_Z    60  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Gyroscope  mean Y axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyGyro_mean_X    61  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Gyroscope  mean Z axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyGyro_mean_Y    62  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Gyroscope  Standard Deviation X axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyGyro_mean_Z    63  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Gyroscope  Standard Deviation Y axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyGyro_std_X    64  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Gyroscope  Standard Deviation Z axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyGyro_std_Y    65  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Gyroscope  Mean Frequency X axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyGyro_std_Z    66  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Gyroscope  Mean Frequency Y axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyGyro_meanFreq_X    67  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Gyroscope  Mean Frequency Z axis ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyGyro_meanFreq_Y    68  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Accelerometer  Mag mean ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyGyro_meanFreq_Z    69  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Accelerometer  Mag Standard Deviation ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyAccMag_mean    70  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Accelerometer  Mag Mean Frequency ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyAccMag_std    71  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Accelerometer  Jerk Signal Mag mean ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyAccMag_meanFreq    72  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Accelerometer  Jerk Signal Mag Standard Deviation ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyBodyAccJerkMag_mean    73  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Accelerometer  Jerk Signal Mag Mean Frequency ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyBodyAccJerkMag_std    74  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Gyroscope  Mag mean ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyBodyAccJerkMag_meanFreq    75  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Gyroscope  Mag Standard Deviation ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyBodyGyroMag_mean    76  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Gyroscope  Mag Mean Frequency ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyBodyGyroMag_std    77  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Gyroscope  Jerk Signal Mag mean ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyBodyGyroMag_meanFreq    78  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Gyroscope  Jerk Signal Mag Standard Deviation ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyBodyGyroJerkMag_mean    79  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequency Domain Body Gyroscope  Jerk Signal Mag Mean Frequency ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyBodyGyroJerkMag_std    80  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Angle Time Domain Body Accelerometer  Mean gravity ; Mean of Normalized Observations Bounded Within [-1,1]  
-fBodyBodyGyroJerkMag_meanFreq    81  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Angle Time Domain Body Accelerometer  Jerk Signal Mean gravityMean ; Mean of Normalized Observations Bounded Within [-1,1]  
-angle_tBodyAccMean_gravity    82  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Angle Time Domain Body Gyroscope  Mean gravity Mean ; Mean of Normalized Observations Bounded Within [-1,1]  
-angle_tBodyAccJerkMean_gravityMean    83  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Angle Time Domain Body Gyroscope  Jerk Signal Mean gravityMean ; Mean of Normalized Observations Bounded Within [-1,1]  
-angle_tBodyGyroMean_gravityMean    84  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Angle X axis gravityMean ; Mean of Normalized Observations Bounded Within [-1,1]  
-angle_tBodyGyroJerkMean_gravityMean    85  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Angle Y axis gravityMean ; Mean of Normalized Observations Bounded Within [-1,1]  
-angle_X_gravityMean    86  	
-  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Angle Z axis gravityMean ; Mean of Normalized Observations Bounded Within [-1,1]  
-angle_Y_gravityMean    87  	
-  	
-angle_Z_gravityMean    88  	
+1.  Activity	
+	*  Time Domain Body Accelerometer  mean X axis ; Mean of Normalized Observations Bounded Within [-1,1]
+2.  Subject_Number	
+	*  Time Domain Body Accelerometer  mean Y axis ; Mean of Normalized Observations Bounded Within [-1,1]
+3.  tBodyAcc_mean_X	
+	*  Time Domain Body Accelerometer  mean Z axis ; Mean of Normalized Observations Bounded Within [-1,1]
+4.  tBodyAcc_mean_Y	
+	*  Time Domain Body Accelerometer  Standard Deviation X axis ; Mean of Normalized Observations Bounded Within [-1,1]
+5.  tBodyAcc_mean_Z	
+	*  Time Domain Body Accelerometer  Standard Deviation Y axis ; Mean of Normalized Observations Bounded Within [-1,1]
+6.  tBodyAcc_std_X	
+	*  Time Domain Body Accelerometer  Standard Deviation Z axis ; Mean of Normalized Observations Bounded Within [-1,1]
+7.  tBodyAcc_std_Y	
+	*  Time Domain Gravity Accelerometer  mean X axis ; Mean of Normalized Observations Bounded Within [-1,1]
+8.  tBodyAcc_std_Z	
+	*  Time Domain Gravity Accelerometer  mean Y axis ; Mean of Normalized Observations Bounded Within [-1,1]
+9.  tGravityAcc_mean_X	
+	*  Time Domain Gravity Accelerometer  mean Z axis ; Mean of Normalized Observations Bounded Within [-1,1]
+10.  tGravityAcc_mean_Y	
+	*  Time Domain Gravity Accelerometer  Standard Deviation X axis ; Mean of Normalized Observations Bounded Within [-1,1]
+11.  tGravityAcc_mean_Z	
+	*  Time Domain Gravity Accelerometer  Standard Deviation Y axis ; Mean of Normalized Observations Bounded Within [-1,1]
+12.  tGravityAcc_std_X	
+	*  Time Domain Gravity Accelerometer  Standard Deviation Z axis ; Mean of Normalized Observations Bounded Within [-1,1]
+13.  tGravityAcc_std_Y	
+	*  Time Domain Body Accelerometer  Jerk Signal mean X axis ; Mean of Normalized Observations Bounded Within [-1,1]
+14.  tGravityAcc_std_Z	
+	*  Time Domain Body Accelerometer  Jerk Signal mean Y axis ; Mean of Normalized Observations Bounded Within [-1,1]
+15.  tBodyAccJerk_mean_X	
+	*  Time Domain Body Accelerometer  Jerk Signal mean Z axis ; Mean of Normalized Observations Bounded Within [-1,1]
+16.  tBodyAccJerk_mean_Y	
+	*  Time Domain Body Accelerometer  Jerk Signal Standard Deviation X axis ; Mean of Normalized Observations Bounded Within [-1,1]
+17.  tBodyAccJerk_mean_Z	
+	*  Time Domain Body Accelerometer  Jerk Signal Standard Deviation Y axis ; Mean of Normalized Observations Bounded Within [-1,1]
+18.  tBodyAccJerk_std_X	
+	*  Time Domain Body Accelerometer  Jerk Signal Standard Deviation Z axis ; Mean of Normalized Observations Bounded Within [-1,1]
+19.  tBodyAccJerk_std_Y	
+	*  Time Domain Body Gyroscope  mean X axis ; Mean of Normalized Observations Bounded Within [-1,1]
+20.  tBodyAccJerk_std_Z	
+	*  Time Domain Body Gyroscope  mean Y axis ; Mean of Normalized Observations Bounded Within [-1,1]
+21.  tBodyGyro_mean_X	
+	*  Time Domain Body Gyroscope  mean Z axis ; Mean of Normalized Observations Bounded Within [-1,1]
+22.  tBodyGyro_mean_Y	
+	*  Time Domain Body Gyroscope  Standard Deviation X axis ; Mean of Normalized Observations Bounded Within [-1,1]
+23.  tBodyGyro_mean_Z	
+	*  Time Domain Body Gyroscope  Standard Deviation Y axis ; Mean of Normalized Observations Bounded Within [-1,1]
+24.  tBodyGyro_std_X	
+	*  Time Domain Body Gyroscope  Standard Deviation Z axis ; Mean of Normalized Observations Bounded Within [-1,1]
+25.  tBodyGyro_std_Y	
+	*  Time Domain Body Gyroscope  Jerk Signal  mean X axis ; Mean of Normalized Observations Bounded Within [-1,1]
+26.  tBodyGyro_std_Z	
+	*  Time Domain Body Gyroscope  Jerk Signal  mean Y axis ; Mean of Normalized Observations Bounded Within [-1,1]
+27.  tBodyGyroJerk_mean_X	
+	*  Time Domain Body Gyroscope  Jerk Signal  mean Z axis ; Mean of Normalized Observations Bounded Within [-1,1]
+28.  tBodyGyroJerk_mean_Y	
+	*  Time Domain Body Gyroscope  Jerk Signal  Standard Deviation X axis ; Mean of Normalized Observations Bounded Within [-1,1]
+29.  tBodyGyroJerk_mean_Z	
+	*  Time Domain Body Gyroscope  Jerk Signal  Standard Deviation Y axis ; Mean of Normalized Observations Bounded Within [-1,1]
+30.  tBodyGyroJerk_std_X	
+	*  Time Domain Body Gyroscope  Jerk Signal  Standard Deviation Z axis ; Mean of Normalized Observations Bounded Within [-1,1]
+31.  tBodyGyroJerk_std_Y	
+	*  Time Domain Body Accelerometer  Mag mean ; Mean of Normalized Observations Bounded Within [-1,1]
+32.  tBodyGyroJerk_std_Z	
+	*  Time Domain Body Accelerometer  Mag Standard Deviation ; Mean of Normalized Observations Bounded Within [-1,1]
+33.  tBodyAccMag_mean	
+	*  Time Domain Gravity Accelerometer  Mag mean ; Mean of Normalized Observations Bounded Within [-1,1]
+34.  tBodyAccMag_std	
+	*  Time Domain Gravity Accelerometer  Mag Standard Deviation ; Mean of Normalized Observations Bounded Within [-1,1]
+35.  tGravityAccMag_mean	
+	*  Time Domain Body Accelerometer  Jerk Signal Mag mean ; Mean of Normalized Observations Bounded Within [-1,1]
+36.  tGravityAccMag_std	
+	*  Time Domain Body Accelerometer  Jerk Signal Mag Standard Deviation ; Mean of Normalized Observations Bounded Within [-1,1]
+37.  tBodyAccJerkMag_mean	
+	*  Time Domain Body Gyroscope  Mag mean ; Mean of Normalized Observations Bounded Within [-1,1]
+38.  tBodyAccJerkMag_std	
+	*  Time Domain Body Gyroscope  Mag Standard Deviation ; Mean of Normalized Observations Bounded Within [-1,1]
+39.  tBodyGyroMag_mean	
+	*  Time Domain Body Gyroscope  Jerk Signal Mag mean ; Mean of Normalized Observations Bounded Within [-1,1]
+40.  tBodyGyroMag_std	
+	*  Time Domain Body Gyroscope  Jerk Signal Mag Standard Deviation ; Mean of Normalized Observations Bounded Within [-1,1]
+41.  tBodyGyroJerkMag_mean	
+	*  Frequency Domain Body Accelerometer  mean X axis ; Mean of Normalized Observations Bounded Within [-1,1]
+42.  tBodyGyroJerkMag_std	
+	*  Frequency Domain Body Accelerometer  mean Y axis ; Mean of Normalized Observations Bounded Within [-1,1]
+43.  fBodyAcc_mean_X	
+	*  Frequency Domain Body Accelerometer  mean Z axis ; Mean of Normalized Observations Bounded Within [-1,1]
+44.  fBodyAcc_mean_Y	
+	*  Frequency Domain Body Accelerometer  Standard Deviation X axis ; Mean of Normalized Observations Bounded Within [-1,1]
+45.  fBodyAcc_mean_Z	
+	*  Frequency Domain Body Accelerometer  Standard Deviation Y axis ; Mean of Normalized Observations Bounded Within [-1,1]
+46.  fBodyAcc_std_X	
+	*  Frequency Domain Body Accelerometer  Standard Deviation Z axis ; Mean of Normalized Observations Bounded Within [-1,1]
+47.  fBodyAcc_std_Y	
+	*  Frequency Domain Body Accelerometer  Mean Frequency X axis ; Mean of Normalized Observations Bounded Within [-1,1]
+48.  fBodyAcc_std_Z	
+	*  Frequency Domain Body Accelerometer  Mean Frequency Y axis ; Mean of Normalized Observations Bounded Within [-1,1]
+49.  fBodyAcc_meanFreq_X	
+	*  Frequency Domain Body Accelerometer  Mean Frequency Z axis ; Mean of Normalized Observations Bounded Within [-1,1]
+50.  fBodyAcc_meanFreq_Y	
+	*  Frequency Domain Body Accelerometer  Jerk Signal  mean X axis ; Mean of Normalized Observations Bounded Within [-1,1]
+51.  fBodyAcc_meanFreq_Z	
+	*  Frequency Domain Body Accelerometer  Jerk Signal  mean Y axis ; Mean of Normalized Observations Bounded Within [-1,1]
+52.  fBodyAccJerk_mean_X	
+	*  Frequency Domain Body Accelerometer  Jerk Signal  mean Z axis ; Mean of Normalized Observations Bounded Within [-1,1]
+53.  fBodyAccJerk_mean_Y	
+	*  Frequency Domain Body Accelerometer  Jerk Signal  Standard Deviation X axis ; Mean of Normalized Observations Bounded Within [-1,1]
+54.  fBodyAccJerk_mean_Z	
+	*  Frequency Domain Body Accelerometer  Jerk Signal  Standard Deviation Y axis ; Mean of Normalized Observations Bounded Within [-1,1]
+55.  fBodyAccJerk_std_X	
+	*  Frequency Domain Body Accelerometer  Jerk Signal  Standard Deviation Z axis ; Mean of Normalized Observations Bounded Within [-1,1]
+56.  fBodyAccJerk_std_Y	
+	*  Frequency Domain Body Accelerometer  Jerk Signal  Mean Frequency X axis ; Mean of Normalized Observations Bounded Within [-1,1]
+57.  fBodyAccJerk_std_Z	
+	*  Frequency Domain Body Accelerometer  Jerk Signal  Mean Frequency Y axis ; Mean of Normalized Observations Bounded Within [-1,1]
+58.  fBodyAccJerk_meanFreq_X	
+	*  Frequency Domain Body Accelerometer  Jerk Signal  Mean Frequency Z axis ; Mean of Normalized Observations Bounded Within [-1,1]
+59.  fBodyAccJerk_meanFreq_Y	
+	*  Frequency Domain Body Gyroscope  mean X axis ; Mean of Normalized Observations Bounded Within [-1,1]
+60.  fBodyAccJerk_meanFreq_Z	
+	*  Frequency Domain Body Gyroscope  mean Y axis ; Mean of Normalized Observations Bounded Within [-1,1]
+61.  fBodyGyro_mean_X	
+	*  Frequency Domain Body Gyroscope  mean Z axis ; Mean of Normalized Observations Bounded Within [-1,1]
+62.  fBodyGyro_mean_Y	
+	*  Frequency Domain Body Gyroscope  Standard Deviation X axis ; Mean of Normalized Observations Bounded Within [-1,1]
+63.  fBodyGyro_mean_Z	
+	*  Frequency Domain Body Gyroscope  Standard Deviation Y axis ; Mean of Normalized Observations Bounded Within [-1,1]
+64.  fBodyGyro_std_X	
+	*  Frequency Domain Body Gyroscope  Standard Deviation Z axis ; Mean of Normalized Observations Bounded Within [-1,1]
+65.  fBodyGyro_std_Y	
+	*  Frequency Domain Body Gyroscope  Mean Frequency X axis ; Mean of Normalized Observations Bounded Within [-1,1]
+66.  fBodyGyro_std_Z	
+	*  Frequency Domain Body Gyroscope  Mean Frequency Y axis ; Mean of Normalized Observations Bounded Within [-1,1]
+67.  fBodyGyro_meanFreq_X	
+	*  Frequency Domain Body Gyroscope  Mean Frequency Z axis ; Mean of Normalized Observations Bounded Within [-1,1]
+68.  fBodyGyro_meanFreq_Y	
+	*  Frequency Domain Body Accelerometer  Mag mean ; Mean of Normalized Observations Bounded Within [-1,1]
+69.  fBodyGyro_meanFreq_Z	
+	*  Frequency Domain Body Accelerometer  Mag Standard Deviation ; Mean of Normalized Observations Bounded Within [-1,1]
+70.  fBodyAccMag_mean	
+	*  Frequency Domain Body Accelerometer  Mag Mean Frequency ; Mean of Normalized Observations Bounded Within [-1,1]
+71.  fBodyAccMag_std	
+	*  Frequency Domain Body Accelerometer  Jerk Signal Mag mean ; Mean of Normalized Observations Bounded Within [-1,1]
+72.  fBodyAccMag_meanFreq	
+	*  Frequency Domain Body Accelerometer  Jerk Signal Mag Standard Deviation ; Mean of Normalized Observations Bounded Within [-1,1]
+73.  fBodyBodyAccJerkMag_mean	
+	*  Frequency Domain Body Accelerometer  Jerk Signal Mag Mean Frequency ; Mean of Normalized Observations Bounded Within [-1,1]
+74.  fBodyBodyAccJerkMag_std	
+	*  Frequency Domain Body Gyroscope  Mag mean ; Mean of Normalized Observations Bounded Within [-1,1]
+75.  fBodyBodyAccJerkMag_meanFreq	
+	*  Frequency Domain Body Gyroscope  Mag Standard Deviation ; Mean of Normalized Observations Bounded Within [-1,1]
+76.  fBodyBodyGyroMag_mean	
+	*  Frequency Domain Body Gyroscope  Mag Mean Frequency ; Mean of Normalized Observations Bounded Within [-1,1]
+77.  fBodyBodyGyroMag_std	
+	*  Frequency Domain Body Gyroscope  Jerk Signal Mag mean ; Mean of Normalized Observations Bounded Within [-1,1]
+78.  fBodyBodyGyroMag_meanFreq	
+	*  Frequency Domain Body Gyroscope  Jerk Signal Mag Standard Deviation ; Mean of Normalized Observations Bounded Within [-1,1]
+79.  fBodyBodyGyroJerkMag_mean	
+	*  Frequency Domain Body Gyroscope  Jerk Signal Mag Mean Frequency ; Mean of Normalized Observations Bounded Within [-1,1]
+80.  fBodyBodyGyroJerkMag_std	
+	*  Angle Time Domain Body Accelerometer  Mean gravity ; Mean of Normalized Observations Bounded Within [-1,1]
+81.  fBodyBodyGyroJerkMag_meanFreq	
+	*  Angle Time Domain Body Accelerometer  Jerk Signal Mean gravityMean ; Mean of Normalized Observations Bounded Within [-1,1]
+82.  angle_tBodyAccMean_gravity	
+	*  Angle Time Domain Body Gyroscope  Mean gravity Mean ; Mean of Normalized Observations Bounded Within [-1,1]
+83.  angle_tBodyAccJerkMean_gravityMean	
+	*  Angle Time Domain Body Gyroscope  Jerk Signal Mean gravityMean ; Mean of Normalized Observations Bounded Within [-1,1]
+84.  angle_tBodyGyroMean_gravityMean	
+	*  Angle X axis gravityMean ; Mean of Normalized Observations Bounded Within [-1,1]
+85.  angle_tBodyGyroJerkMean_gravityMean	
+	*  Angle Y axis gravityMean ; Mean of Normalized Observations Bounded Within [-1,1]
+86.  angle_X_gravityMean	
+	*  Angle Z axis gravityMean ; Mean of Normalized Observations Bounded Within [-1,1]
+87.  angle_Y_gravityMean	
+	
+88.  angle_Z_gravityMean	
+
 
 
 
